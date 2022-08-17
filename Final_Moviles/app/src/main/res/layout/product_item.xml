@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/tiendaGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:accessibilityLiveRegion="none"
+        android:background="#00704A "
+        android:orientation="horizontal"
+        android:radius="310dp"
+        android:textAlignment="center"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <ImageView
+            android:id="@+id/tiendaImagen"
+            android:layout_width="102dp"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/tienda"
+            android:layout_marginTop="65dp"
+            />
+
+    <LinearLayout
+        android:id="@+id/tiendaGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:accessibilityLiveRegion="none"
+        android:background="#00704A "
+        android:orientation="vertical"
+        android:radius="310dp"
+        android:textAlignment="center"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:id="@+id/tiendaSucursal"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Sucursal:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="10dp" />
+
+        <TextView
+            android:id="@+id/tiendaNombre"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Tienda Los Olivos"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="8dp" />
+
+        <TextView
+            android:id="@+id/tiendaDireccion1"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Dirección:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/tiendaDireccion2"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Miraflores 710"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/tiendaForo1"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Aforo:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/tiendaForo2"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/tiendaTelefono1"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="Telefono:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+        <TextView
+            android:id="@+id/tiendaTelefono2"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:capitalize="words"
+            android:fontFamily="@font/baloo"
+            android:text="987654321"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:translationY="15dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

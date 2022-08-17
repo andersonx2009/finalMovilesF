@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_login_in_to_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="2"
+        android:fontFamily="@font/baloo"
+        android:lineSpacingExtra="-17dp"
+        android:maxLines="2"
+        android:text="Registrar Tienda"
+        android:textColor="#00704A "
+        android:textSize="38sp"
+        android:translationX="33dp"
+        android:translationY="30dp" />
+
+    <EditText
+        android:id="@+id/sucursal"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre de la sucursal"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="120dp" />
+
+    <EditText
+        android:id="@+id/Direccion"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Direccion"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="190dp" />
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="260dp" />
+
+    <EditText
+        android:id="@+id/Foro"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Aforo"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="330dp" />
+
+    <EditText
+        android:id="@+id/Latitud"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Latitud"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="400dp" />
+
+    <EditText
+        android:id="@+id/Longitud"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Longitud"
+        android:inputType="textPersonName"
+
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:translationX="28dp"
+        android:translationY="470dp" />
+
+
+    <Button
+        android:id="@+id/buttonRegistrarTienda"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00704A "
+        android:text="Registrarse"
+        android:textColor="@color/white"
+        android:translationX="40dp"
+        android:translationY="555dp"
+
+        />
+
+</FrameLayout>

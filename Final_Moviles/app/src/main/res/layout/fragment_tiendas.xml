@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1200dp"
+    android:orientation="vertical"
+
+    tools:context=".TiendasFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="177dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/baloo"
+        android:text="Tiendas"
+        android:textColor="#00704A "
+        android:textSize="48sp"
+        android:translationX="125dp"
+        android:translationY="50dp"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_tiendas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        tools:listitem="@layout/product_item" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <ImageButton
+        android:id="@+id/ButtonBackToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+    <LinearLayout
+        android:id="@+id/layout_img"
+        android:layout_width="413dp"
+        android:layout_height="145dp"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/layout_im"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/starbucks" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_txt_login_in_to_account"
+        android:layout_width="204dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="56dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/layout_img"
+        tools:layout_editor_absoluteX="103dp">
+
+        <TextView
+            android:id="@+id/txt_login_in_to_account"
+            android:layout_width="258dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="2"
+            android:fontFamily="@font/baloo"
+            android:lineSpacingExtra="-17dp"
+            android:maxLines="2"
+            android:text="Registrar"
+            android:textColor="#00704A "
+            android:textSize="38sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_formulario"
+        android:layout_width="416dp"
+        android:layout_height="289dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:translationY="30dp"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_txt_login_in_to_account">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefono, correo o usuario"
+            android:inputType="textPersonName"
+
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:translationX="28dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:paddingBottom="20dp"
+            android:translationX="28dp" />
+
+        <Button
+            android:id="@+id/buttonIniciarSesion"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00704A "
+            android:text="Registrarse"
+            android:textColor="@color/white"
+            android:translationX="40dp"
+            android:translationY="30dp"
+
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

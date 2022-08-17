@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715409600204",
+    "project_id": "finalmoviles-90074",
+    "storage_bucket": "finalmoviles-90074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715409600204:android:ad7bed08e98f8563d35c69",
+        "android_client_info": {
+          "package_name": "com.example.examplenavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715409600204-023jjoglgmcvte4jq33a0oji5ofig7nb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOgh6QF9MHkWjuTJmn88DysJEhv31vOEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715409600204-023jjoglgmcvte4jq33a0oji5ofig7nb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
